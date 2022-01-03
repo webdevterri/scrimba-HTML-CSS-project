@@ -1,0 +1,138 @@
+body {
+  background: black;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.col-trivia h2 {
+  text-align: right;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  background: lime;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+form {
+  margin-top: 30px;
+}
+
+footer {
+  padding: 20px 0;
+  background: rgb(44, 44, 44);
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.centered-p {
+  text-align: center;
+}
+
+.hero {
+  background: rgb(44, 44, 44);
+  padding: 10px 10px 20px;
+}
+
+.hero-content {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.trivia {
+  padding: 30px 0;
+}
+
+.columns-trivia {
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about {
+  margin-top: 75px;
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.col-trivia {
+  text-align: right;
+  border-right: lime 10px solid;
+  padding-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.col {
+  text-align: center;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.portfolio {
+  background: rgb(44, 44, 44);
+  padding: 20px 10px 40px;
+}
+
+.project-meta {
+  border-left: black 10px solid;
+  padding-left: 10px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.form-section {
+  margin-bottom: 10px;
+}
+
+/* About Me Page */
+
+.profile-id {
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 70%;
+
+}
+
+.profile-text {
+  border-left: solid 10px lime;
+  border-bottom: solid 10px lime;
+  padding-left: 10px;
+}
